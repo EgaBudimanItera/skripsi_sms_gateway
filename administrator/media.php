@@ -1,6 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <?php
 session_start();
@@ -36,6 +33,8 @@ else{
 <link rel="stylesheet" href="css/jquery.ui.css" type="text/css"/>
 <link rel="stylesheet" href="css/visualize.css" type="text/css"/>
 <link rel="stylesheet" href="css/visualize-light.css" type="text/css"/>
+<link rel="stylesheet" href="style2.css" type="text/css"/>
+
 	
 <script type='text/javascript' src='js/calendar_db.js'></script>
 <script type="text/javascript" src="js/jquery.js"></script>

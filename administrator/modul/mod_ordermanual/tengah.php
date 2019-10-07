@@ -95,22 +95,22 @@ $sql=mysql_query("SELECT * FROM produk ORDER BY id_produk DESC LIMIT 12");
       }else{
       $divharga=$hargatetap;
       } 
-      // echo "<div class='prod_box'>
-      //     <div class='top_prod_box'></div> 
-      //     <div class='center_prod_box'>            
-      //        <div class='product_title'><a href='produk-$r[id_produk]-$r[produk_seo].html'>$r[nama_produk]</a></div>
-      //        <div class='product_img'>
-      //                        <a href='produk-$r[id_produk]-$r[produk_seo].html'><a href='../foto_produk/$r[gambar]' rel='clearbox[gallery=Koleksi Produk]' title='$r[nama_produk]'>
-      //          <img src='../foto_produk/$r[gambar]' border='0' height=110 width=114  class='tooltip' ></a>
-      //        </div>
-      //        $divharga
-      //     <div class='bottom_prod_box'></div>
-      //     <div class='prod_details_tab'>
-      //        $tombol            
-      //        <a href='produk-$r[id_produk]-$r[produk_seo].html' class='prod_details'>DETAIL</a> 
-      //     </div>
-      //     </div>";
-      echo "<img src='../foto_produk/$r[gambar]' border='0' height=110 width=114  class='tooltip' >";
+      echo "<div class='prod_box'>
+           <div class='top_prod_box'></div> 
+           <div class='center_prod_box'>            
+              <div class='product_title'><a href='produk-$r[id_produk]-$r[produk_seo].html'>$r[nama_produk]</a></div>
+            <div class='product_img'>
+                             <a href='produk-$r[id_produk]-$r[produk_seo].html'><a href='../foto_produk/$r[gambar]' rel='clearbox[gallery=Koleksi Produk]' title='$r[nama_produk]'>
+               <img src='../foto_produk/$r[gambar]' border='0' height=110 width=114  class='tooltip' ></a>
+             </div>
+             $divharga
+         <div class='bottom_prod_box'></div>
+          <div class='prod_details_tab'>
+             $tombol            
+           
+          </div>
+          </div>";
+     
 
   }
 ?>
