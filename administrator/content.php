@@ -126,6 +126,12 @@ if ($_SESSION['leveluser']=='admin'){
   }
 }
 
+elseif ($_GET['module']=='isipesan'){
+if ($_SESSION['leveluser']=='admin'){
+  require_once "modul/mod_ordermanual/isipesanan.php";
+  }
+}
+
 
 
 

@@ -76,7 +76,7 @@ $sql=mysql_query("SELECT * FROM produk ORDER BY id_produk DESC LIMIT 12");
     $disc     = ($r[diskon]/100)*$r[harga];
     $hargadisc     = number_format(($r[harga]-$disc),0,",",".");
     $stok=$r['stok'];
-    $tombolbeli="<a class='prod_cart' href=\"aksi.php?module=keranjang&act=tambah&id=$r[id_produk]\">BELI</a>";
+    $tombolbeli="<a class='prod_cart' href=\"modul\mod_ordermanual\aksi.php?module=keranjang&act=tambah&id=$r[id_produk]\">BELI</a>";
     $tombolhabis="-";
       if ($stok!= "0"){
       $tombol=$tombolbeli;

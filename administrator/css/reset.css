@@ -62,6 +62,17 @@ a.simplebtn {
 	display:inline-block;
 	height:16px;
 }
+.btn-finish{
+	padding:2px 10px 2px 10px;
+	border:#511a1f solid 1px;
+	color:#fff;
+	cursor:pointer;
+	background-image:url(../images/btn.gif);
+	background-repeat:repeat-x;
+	background-color:#521a1f;
+	display:inline-block;
+	height:16px;
+}
 a.simplebtn:hover {
 	color:#fff;
 	background-color:#511a1f;
